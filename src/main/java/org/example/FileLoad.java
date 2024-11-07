@@ -20,10 +20,7 @@ public class FileLoad {
                 list.add(t);
             }
             return list;
-        } catch (FileNotFoundException e){
-            System.out.println(e.getMessage()+ "Этот файл не найден");
         }
-        return list;
     }
 }
 
