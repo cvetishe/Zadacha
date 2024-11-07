@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c02f3191-c1f8-4fd2-b4fa-6f7e5c4ce14c" name="Changes" comment="спор с файдлом">
+    <list default="true" id="c02f3191-c1f8-4fd2-b4fa-6f7e5c4ce14c" name="Changes" comment="договориль">
+      <change afterPath="$PROJECT_DIR$/hs_err_pid6420.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tenants/FileLoadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tenants/TenantsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/input_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/input_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/text1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/text2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/text3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FileLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FileLoad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tenants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Tenants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +51,26 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.FileLoad.executor": "Run",
     "Application.Main.executor": "Run",
+    "JUnit.FileLoadTest.executor": "Run",
+    "JUnit.FileLoadTest.testFileRead1.executor": "Run",
+    "JUnit.FileLoadTest.testFileRead2.executor": "Run",
+    "JUnit.FileLoadTest.testFileRead3.executor": "Run",
+    "JUnit.FileLoadTest.testFileRead4.executor": "Run",
+    "JUnit.FileLoadTest.testFileRead5.executor": "Run",
+    "JUnit.FileLoadTest.testFileRead6.executor": "Run",
+    "JUnit.FileLoadTest.testFileRead7.executor": "Run",
+    "JUnit.TenantsTest.TestConstructor1.executor": "Run",
+    "JUnit.TenantsTest.TestConstructor2.executor": "Run",
+    "JUnit.TenantsTest.TestConstructor3.executor": "Run",
+    "JUnit.TenantsTest.TestConstructor4.executor": "Run",
+    "JUnit.TenantsTest.TestConstructor5.executor": "Run",
+    "JUnit.TenantsTest.TestDistribution1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java учеба/Zadachka"
+    "last_opened_file_path": "D:/Java учеба/Zadachka",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "two.files.diff.last.used.file": "D:/Java учеба/Zadachka/src/test/resources/input.txt"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -54,37 +78,93 @@
       <recent name="D:\Java учеба\Zadachka\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="FileLoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FileLoad" />
+  <component name="RunManager" selected="JUnit.FileLoadTest">
+    <configuration name="FileLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Zadachka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="tenants.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tenants" />
+      <option name="MAIN_CLASS_NAME" value="tenants.FileLoadTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="TenantsTest.TestConstructor5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Zadachka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="tenants.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tenants" />
+      <option name="MAIN_CLASS_NAME" value="tenants.TenantsTest" />
+      <option name="METHOD_NAME" value="TestConstructor5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenantsTest.TestDistribution1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zadachka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tenants.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tenants" />
+      <option name="MAIN_CLASS_NAME" value="tenants.TenantsTest" />
+      <option name="METHOD_NAME" value="TestDistribution1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenantsTest.TestDistribution2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zadachka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tenants.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tenants" />
+      <option name="MAIN_CLASS_NAME" value="tenants.TenantsTest" />
+      <option name="METHOD_NAME" value="TestDistribution2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenantsTest.TestDistribution3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zadachka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tenants.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tenants" />
+      <option name="MAIN_CLASS_NAME" value="tenants.TenantsTest" />
+      <option name="METHOD_NAME" value="TestDistribution3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FileLoad" />
+        <item itemvalue="JUnit.FileLoadTest" />
+        <item itemvalue="JUnit.TenantsTest.TestDistribution3" />
+        <item itemvalue="JUnit.TenantsTest.TestDistribution2" />
+        <item itemvalue="JUnit.TenantsTest.TestDistribution1" />
+        <item itemvalue="JUnit.TenantsTest.TestConstructor5" />
       </list>
     </recent_temporary>
   </component>
@@ -105,12 +185,47 @@
       <option name="project" value="LOCAL" />
       <updated>1730567791906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="спор с файдлом">
+      <option name="closed" value="true" />
+      <created>1730569693942</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730569693942</updated>
+    </task>
+    <task id="LOCAL-00003" summary="спор с файдлом">
+      <option name="closed" value="true" />
+      <created>1730569704023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730569704023</updated>
+    </task>
+    <task id="LOCAL-00004" summary="договориль">
+      <option name="closed" value="true" />
+      <created>1730569736029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730569736029</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="спор с файдлом" />
-    <option name="LAST_COMMIT_MESSAGE" value="спор с файдлом" />
+    <MESSAGE value="договориль" />
+    <option name="LAST_COMMIT_MESSAGE" value="договориль" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="151" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
